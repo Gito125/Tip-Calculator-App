@@ -1,0 +1,34 @@
+.bill-number.active{
+  color: var(--Very-dark-cyan);
+}
+
+.alert-text{
+  color: red;
+  font-weight: 800;
+}
+
+.tip-buttons button.active{
+  background-color: hsl(170, 36%, 71%);
+  color: var(--Very-dark-cyan);
+}
+
+.tip-buttons input.alert,
+.tip-buttons input.alert:focus{
+  border: 1px solid red;
+  outline: 1px solid red;
+}
+
+
+
+.number-input.active,
+.number-input.active:focus{
+  outline: 2px solid red;
+}
+
+.reset-btn.active{
+  opacity: 1;
+  cursor: pointer;
+}
+.reset-btn.active:hover{
+  background-color: hsl(171, 64%, 76%);
+}
